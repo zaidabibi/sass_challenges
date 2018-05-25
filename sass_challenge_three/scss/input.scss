@@ -1,0 +1,100 @@
+.grid-container{
+  display:grid;
+  grid-template-columns: repeat(35,1fr);
+  grid-auto-rows: 33px;
+  grid-gap: 9px;
+  background-color: grey;
+  color: white;
+  }
+
+  .topnav{
+    font-size: 16px;
+    word-spacing: 115px;
+    margin-left: 338px;
+    margin-top: 66px;
+
+
+  }
+  .item1{
+    grid-column-start: 2;
+    grid-column-end: 35;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    border: 2px solid white;
+
+}
+
+  .item7{
+    grid-column-start: 2;
+    grid-column-end: 23;
+    grid-row-start: 7;
+    grid-row-end: 13;
+border: 2px solid white;
+}
+  .item8{
+    grid-column-start: 25;
+    grid-column-end: 33;
+    grid-row-start: 7;
+    grid-row-end: 13;
+border: 2px solid white;
+background-image: url(../images/mee.jpg);
+background-size: cover;
+}
+  .item9{
+    grid-column-start: 2;
+    grid-column-end: 12;
+    grid-row-start: 14;
+    grid-row-end: 19;
+    border: 2px solid  white;
+    background-image: url(../images/classmate_1.jpg);
+    background-size: cover;
+}
+  .item10{
+    grid-column-start: 13;
+    grid-column-end: 24;
+    grid-row-start: 14;
+    grid-row-end: 19;
+border: 2px solid white;
+background-image: url(../images/classmate_2.jpg);
+background-size: cover;
+}
+  .item11{
+    grid-column-start: 25;
+    grid-column-end: 34;
+    grid-row-start: 14;
+    grid-row-end: 19;
+border: 2px solid white;
+background-image: url(../images/classmate_3.jpg);
+background-size: cover;
+}
+  .item12{
+    grid-column-start: 2;
+    grid-column-end: 34;
+    grid-row-start: 20;
+    grid-row-end: 25;
+border: 2px solid white;
+}
+
+.image{
+  background-image: url(../images/facilitator.jpg);
+  width: 200px;
+  height:195px;
+  background-size: cover;
+  float: left;
+
+}
+.info{
+  text-align: center;
+  margin-top: 75px;
+}
+  .item13{
+    grid-column-start: 1;
+    grid-column-end: 36;
+    grid-row-start: 1;
+    grid-row-end: 26;
+border: 2px solid white;
+}
+
+a {
+  color: white;
+}

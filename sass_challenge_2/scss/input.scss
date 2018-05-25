@@ -1,0 +1,150 @@
+/* General setup */
+/* Remember to always comment*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+
+}
+
+/* Layout */
+
+section {
+  float: right;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+body {
+
+  margin: 0 auto;
+  font-family: serif;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+
+}
+header{
+  text-align: center;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  background-image: url(../images/one.jfif);
+
+
+}
+h1 {
+  width: 433px;
+  background-color: pink;
+  margin-left: 392px;
+}
+
+h2{
+  letter-spacing: 2px;
+  word-spacing: 2px;
+
+}
+
+section{
+  display: inline-block;
+
+}
+p {
+  line-height: 1.4;
+
+}
+
+a {
+  outline: none;
+
+}
+
+nav{
+   float: left;
+width: auto;
+margin-left: 399px;
+
+}
+
+p:nth-of-type(1),
+p:nth-of-type(3),
+aside p{
+  text-indent: 20px;
+}
+
+aside{
+  float: right;
+}
+
+ol{
+  list-style-type: lower-roman;
+}
+
+ul{
+ list-style-type: square;
+ list-style-position: inside;
+
+}
+
+a:link, a:visited{
+  color: #a66;
+
+}
+
+
+
+
+a:focus, a:hover {
+  background-color:cyan;
+  text-decoration: none;
+  font-size: 150%;
+  font-style: italic;
+}
+
+a:active {
+  color: red;
+}
+
+a[href*="http"] {
+  background: url(../images/zaida.png) no-repeat 100% 0;
+  background-size: 16px 16px;
+  padding-right: 19px;
+}
+
+footer{
+  background-image: url(../images/483505129.jpg);
+}
